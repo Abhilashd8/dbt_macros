@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: temp
+    database: dbt_analytics
+    schema: raw
+
+seeds:
+  - name: ms_user_dimension
+    description: this seed file will contain the information about the user
+  - name: ms_download_facts
+    description: this seed file will contain the informaion about user downloads
+  - name: ms_account_dimension
+    description: this seed file will contain the informaion about active accounts
+    
