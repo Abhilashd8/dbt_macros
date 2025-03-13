@@ -13,4 +13,5 @@ sources:
       - name: customer
       - name: customer_address
       - name: customer_demographics
+      - name: web_sales
   

@@ -1,3 +1,8 @@
+{{
+    config(materialized = 'table')
+}}
+
+
 with 
 
 customers_cte as (
@@ -39,7 +44,7 @@ customer_details as (
         ca_city as city,
         ca_state as state,
         ca_zip as zip_pin_code,
-        ca_country as country,
+        ca_country as location,
         ca_location_type,
         cd_gender as gender,
         cd_marital_status,
