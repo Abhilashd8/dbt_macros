@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: src_payments
+    description: this source will contain the information about the payments.
+    database: SNOWFLAKE_SAMPLE_DATA
+    schema: TPCDS_SF100TCL
+    tables:
+      - name: date_dim
+      - name: inventory
+      - name: item
+      - name: income_band
+      - name: customer
+      - name: customer_address
+      - name: customer_demographics
+      - name: web_sales
+  
